@@ -1,0 +1,133 @@
+body{
+    background-color: eee;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    width: 100%;
+    background-color: #00aa77;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.nav td:first-child{
+    padding-left: 1em;
+}
+
+.nav a{
+    padding: 1em;
+    display: inline-block;
+    color: white;
+}
+
+.card{
+    margin: 1em;
+    padding: 0em 1em 1em 1em;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.cardnav a{
+    color: #00aa77;
+    padding: 1em;
+    display: inline-block;
+}
+
+.card2{
+    display: inline-block;
+    display: inline-grid;
+    padding: 1em;
+    border: 1px solid #eee;
+    vertical-align: top;
+    min-height: 100px;
+    margin: 0.5em;
+    
+}
+
+.card2 table{
+    width: 300px;
+}
+
+
+.card2 th{
+    color: #00aa77;
+    font-size: 1.1em;
+    font-family: roboto light;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.card2 td{
+    padding-top: 10px;
+}
+.card2 th~th{
+    text-align: right;
+}
+
+.card2 td~td{
+    text-align: right;
+}
+
+.card2 td{
+    font-size: 0.9em
+}
+
+.card2 .nodata{
+    color: #aaaaaa;
+}
+
+input[type=text], input[type=password]{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #aaaaaa;
+    padding: 0.5em;
+    font-size: 1.1em;
+    width: 300px;
+    margin-top: 1em;
+    outline: none;
+}
+
+input[type=text]:hover, input[type=password]:hover{
+    border-bottom: 2px solid #00aa77;
+    
+}
+
+input[type=submit]{
+    padding: 1em;
+    width: 300px;
+    margin-top: 2em;
+    background-color: #00aa77;
+    color: white;
+    font-family: Roboto;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form{
+    margin-top: 15%;
+    display: block;
+}
+
+.nav2{
+    text-align: center;
+}
+
+.nav2 a{
+    padding: 1em;
+    display: inline-block;
+    margin-top: 1em;
+    color: #aaa;
+    border-bottom: 2px solid transparent;
+}
+
+.nav2 a.active{
+    color: #00aa77;
+    border-bottom-color: #00aa77;
+}
